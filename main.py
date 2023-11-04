@@ -34,8 +34,6 @@ while "_" in wordView:
 
     while len(letter) != 1:
 
-
-
         letter = str(input("Guess a letter: ")).lower()
         if len(letter) > 1:
             print("You can only guess 1 letter")
@@ -65,5 +63,3 @@ while "_" in wordView:
 
 if attempts != 8:
     print("You won!")
-
-
